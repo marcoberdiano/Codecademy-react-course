@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './css/index.css';
 import reportWebVitals from './components/reportWebVitals';
-import Home from './components/Home';
-import Greeting from './components/Greeting';
+// import Home from './components/Home';
+// import Greeting from './components/Greeting';
 import Talker from './components/Talker';
 
 

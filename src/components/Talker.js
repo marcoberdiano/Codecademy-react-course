@@ -4,7 +4,7 @@ import { Button } from './Button';
 
 
 class Talker extends React.Component {
-  talk () {
+  handleClick () {
     let speech = '';
     for (let i = 0; i < 10000; i++) {
       speech += 'blah ';
@@ -12,7 +12,7 @@ class Talker extends React.Component {
     alert(speech);
   }
   render() {
-    return <Button talk = {this.talk}/>;
+    return <Button onClick = {this.handleClick}/>;
   }
 }
 
