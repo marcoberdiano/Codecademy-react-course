@@ -4,19 +4,13 @@ import './css/index.css';
 import reportWebVitals from './components/reportWebVitals';
 // import Home from './components/Home';
 // import Greeting from './components/Greeting';
-import {List} from './components/List';
+import ListApp from './components/ListApp';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <List type='Living Musician'>
-      <li>Sachiko M</li>
-      <li>Harvey Sid Fisher</li>
-    </List>
-    <List type='Living Cat Musician'>
-      <li>Nora the Piano Cat</li>
-    </List>
+    <ListApp></ListApp>
   </React.StrictMode>
 );
 

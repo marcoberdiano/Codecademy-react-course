@@ -9,7 +9,7 @@ export class List extends React.Component {
     return (
       <div>
         <h1>{titleText}</h1>
-        <ul>{this.props.children}</ul>
+        <ul style={{listStyleType: "none"}}>{this.props.children}</ul>
       </div>
     );
   }
