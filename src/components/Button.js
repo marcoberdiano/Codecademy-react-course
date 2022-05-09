@@ -6,9 +6,11 @@ export class Button extends React.Component {
     return (
       <div id="button-container">
         <button id="button" onClick={this.props.onClick}>
-            Click me!
+            {this.props.text}
         </button>
       </div>
     );
   }
 }
+
+Button.defaultProps = {text:'Click me!'}

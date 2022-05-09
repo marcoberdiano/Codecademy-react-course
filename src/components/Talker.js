@@ -12,7 +12,7 @@ class Talker extends React.Component {
     alert(speech);
   }
   render() {
-    return <Button onClick = {this.handleClick}/>;
+    return <Button onClick = {this.handleClick} text = "Spam Blah"/>;
   }
 }
 
