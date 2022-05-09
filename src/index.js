@@ -4,7 +4,7 @@ import './css/index.css';
 import reportWebVitals from './components/reportWebVitals';
 // import Home from './components/Home';
 // import Greeting from './components/Greeting';
-import ListApp from './components/ListApp';
+//import ListApp from './components/ListApp';
 import Talker from './components/Talker';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
