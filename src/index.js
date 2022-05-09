@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './css/index.css';
 import reportWebVitals from './components/reportWebVitals';
-import {PropsDisplayer} from './components/PropsDisplayer';
+import Greeting from './components/Greeting';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <PropsDisplayer />
+   <Greeting name="Marco"/>
   </React.StrictMode>
 );
 
