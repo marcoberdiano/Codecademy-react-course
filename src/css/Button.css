@@ -1,0 +1,17 @@
+
+#button-container {
+    margin-top: 50px;
+}
+
+
+#button {
+    padding: 15px 32px;
+    color: #FFF;
+    background-color: #F4595B;
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    border-bottom: 4px solid #C24648;
+    cursor: pointer;
+}
