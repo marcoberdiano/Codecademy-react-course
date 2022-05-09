@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './css/index.css';
 import reportWebVitals from './components/reportWebVitals';
 import Home from './components/Home';
-
+import Greeting from './components/Greeting';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    <Home/>
+   <Greeting name="Marco" signedIn={false}/>
   </React.StrictMode>
 );
 
