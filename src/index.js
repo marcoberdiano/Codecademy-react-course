@@ -5,12 +5,13 @@ import reportWebVitals from './components/reportWebVitals';
 // import Home from './components/Home';
 // import Greeting from './components/Greeting';
 //import ListApp from './components/ListApp';
-import Talker from './components/Talker';
+import QuizNavBar from './components/QuizBarNav';
+import { questions } from './data/questions';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Talker/>
+    <QuizNavBar questions={questions}/>
   </React.StrictMode>
 );
 
