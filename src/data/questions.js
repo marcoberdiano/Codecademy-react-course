@@ -1,0 +1,1 @@
+export const questions = ["What is your name?", "How old are you?", "Where are you from?"]
